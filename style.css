@@ -1,0 +1,59 @@
+@import url(./acesso/css/header.css);
+@import url(./acesso/css/main.css);
+@import url(./acesso/css/footer.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+a {
+    text-decoration: none;
+    
+}
+ body{
+    background-color: brown;
+  
+ }
+
+
+ /* Estilo para o botão do WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+.whatsapp-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
+}
+
+main {
+    background-color: #f4f4f9;
+}
+
+
+
+/* estilização do botão  */
+
+
